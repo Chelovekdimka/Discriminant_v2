@@ -2,7 +2,7 @@
 public class SquareEquation {
 
     public Solution solve(int a, int b, int c) {
-        int d = b*b - 4*a*a;
+        int d = b*b - 4*a*c;
         if (d<0)
             return null;
         Solution r;
